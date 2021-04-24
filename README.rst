@@ -1,1 +1,1 @@
-# Simple implementation of markov chain in python
+Simple implementation of markov chain in python
