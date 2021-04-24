@@ -19,8 +19,8 @@ jobs:
         pip install black flake8 isort mypy
     - name: Analysing the code with pylint
       run: |
-        black `ls -R|grep .py$|xargs`
-        flake8 `ls -R|grep .py$|xargs`
-        isort `ls -R|grep .py$|xargs`
-        mypy `ls -R|grep .py$|xargs`
+        black markov/
+        flake8 markov/
+        isort markov/
+        mypy markov/
         
